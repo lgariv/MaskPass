@@ -77,8 +77,8 @@ def detection():
     sys.path.append("..")
 
     # Import utilites
-    from utils import label_map_util
-    from utils import visualization_utils as vis_util
+    from models.research.object_detection.utils import label_map_util
+    from models.research.object_detection.utils import visualization_utils as vis_util
 
     # Define input and output tensors (i.e. data) for the object detection classifier
 
