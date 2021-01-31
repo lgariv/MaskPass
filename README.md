@@ -1,3 +1,3 @@
 # CollegeProject
 
-https://colab.research.google.com/gist/lgariv/5daf13ced057fb0b77d58a18fb1b4cdb/train_mask_classifier_mobilenetv2.ipynb
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1x3a_JSMoKCcjiKo2UGFiot2A4JVBdYar?usp=sharing)
