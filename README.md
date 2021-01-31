@@ -72,7 +72,7 @@ chmod +x install-requirements.sh
 
 In terminal:
 
-`git clone --recursive-submodules https:///github.com/lgariv/CollegeProject.git`
+`git clone --recurse-submodules https:///github.com/lgariv/CollegeProject.git`
 
 ### Step 8
 Download TFLite model from Google Colab and place in the same folder
