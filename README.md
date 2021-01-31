@@ -2,9 +2,10 @@
 
 ### Step 1
 **Train mask image classifier model in Google Colab (with GPU)**
-Based on MobileNet V2 (SSD) pre-trained model:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1x3a_JSMoKCcjiKo2UGFiot2A4JVBdYar?usp=sharing) *(Download TFLite model)*
+- Based on MobileNet V2 (SSD) pre-trained model:
+
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1x3a_JSMoKCcjiKo2UGFiot2A4JVBdYar?usp=sharing) *(Download TFLite model)*
 
 ### Step 2
 **Install Raspberry Pi OS 64-bit on RPi 4B**
@@ -68,6 +69,8 @@ chmod +x install-requirements.sh
 
 ### Step 7
 **Clone repo**
+
+In terminal:
 
 `git clone --recursive-submodules https:///github.com/lgariv/CollegeProject.git`
 
