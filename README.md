@@ -1,5 +1,9 @@
 # College Project
 
+## Clone repo:
+
+`git clone --recursive-submodules https:///github.com/lgariv/CollegeProject.git`
+
 ### Step 1
 **Train mask image classifier model in Google Colab (with GPU)**
 Based on MobileNet V2 (SSD) pre-trained model:
