@@ -1,9 +1,5 @@
 # College Project
 
-## Clone repo:
-
-`git clone --recursive-submodules https:///github.com/lgariv/CollegeProject.git`
-
 ### Step 1
 **Train mask image classifier model in Google Colab (with GPU)**
 Based on MobileNet V2 (SSD) pre-trained model:
@@ -71,9 +67,14 @@ chmod +x install-requirements.sh
 ```
 
 ### Step 7
-Download TFLite model from Google Colab and place in the same folder
+**Clone repo**
+
+`git clone --recursive-submodules https:///github.com/lgariv/CollegeProject.git`
 
 ### Step 8
+Download TFLite model from Google Colab and place in the same folder
+
+### Step 9
 **Run**
 
 In terminal:
