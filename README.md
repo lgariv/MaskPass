@@ -14,13 +14,6 @@
 
 *Optional -* before installing, add an empty file called `ssh` (without extension) to the root of the install drive, to enable SSH.
 
-After install, in terminal:
-
-```bash
-sudo apt update
-sudo apt full-upgrade
-```
-
 ## Step 3
 **Overclock Raspberry Pi to 1750MHz, overvolt to 3V**
 
@@ -37,6 +30,16 @@ gpu_mem=128
 ```txt
 hdmi_force_hotplug=1
 disable_overscan=1
+```
+
+## Step 4
+**Post install**
+
+After install, in terminal:
+
+```bash
+sudo apt update
+sudo apt full-upgrade
 ```
 
 ## Step 4
