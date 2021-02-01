@@ -42,12 +42,12 @@ sudo apt update
 sudo apt full-upgrade
 ```
 
-## Step 4
+## Step 5
 **Istall OpenCV v4.5.0 or higher (for `arch64`)**
 
 [Q-engineering tutorial](https://qengineering.eu/install-opencv-4.5-on-raspberry-64-os.html)
 
-## Step 5
+## Step 6
 **Install TensorFlow 2 v2.4.0 or higher (for `arch64`)**
 
 [Q-engineering tutorial](https://qengineering.eu/install-tensorflow-2.4.0-on-raspberry-64-os.html)
@@ -60,7 +60,7 @@ pip install pycocotools
 pip install tf_slim
 pip install tensorflow_hub
 ```
-## Step 6
+## Step 7
 **install protos for TensorFlow 2 Object Detection API**
 
 In terminal:
@@ -70,17 +70,17 @@ chmod +x install-requirements.sh
 ./install-requirements.sh
 ```
 
-## Step 7
+## Step 8
 **Clone repo**
 
 In terminal:
 
 `git clone --recurse-submodules https://github.com/lgariv/CollegeProject.git`
 
-## Step 8
+## Step 9
 Download TFLite model from Google Colab and place in the same folder
 
-## Step 9
+## Step 10
 **Run**
 
 In terminal:
