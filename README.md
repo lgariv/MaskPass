@@ -12,7 +12,7 @@
 
 [Download from here](https://downloads.raspberrypi.org/raspios_arm64/images/)
 
-*Optional -* before installing, add an empty file called `ssh` (without extension) to the root of the install drive, to enable SSH.
+*Optional -* before installing, add an empty file called `ssh` (without extension) to the root of the drive, to enable SSH.
 
 ## Step 3
 **Overclock Raspberry Pi to 1750MHz, overvolt to 3V**
