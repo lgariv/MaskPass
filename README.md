@@ -22,7 +22,6 @@
 ```txt
 arm_freq=1750
 over_voltage=3
-gpu_mem=128
 ```
 
 *Optional - enable these lines on `/boot/config.txt` for VNC:*
@@ -30,6 +29,7 @@ gpu_mem=128
 ```txt
 hdmi_force_hotplug=1
 disable_overscan=1
+gpu_mem=128
 ```
 
 ## Step 4
