@@ -7,3 +7,5 @@ python3 setup.py build
 python3 setup.py install
 sudo python3 -m pip install .
 cd ../..
+sudo apt install fbi -y
+

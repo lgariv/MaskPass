@@ -25,11 +25,11 @@ def info(title):
 def stream():
     info('function stream')
     with open(os.devnull, 'wb') as devnull:
-        subprocess.check_call([
-            'sudo', 'modprobe', 'v4l2loopback', 'devices=1', 'exclusive_caps=1'
-        ],
-                              stdout=devnull,
-                              stderr=subprocess.STDOUT)
+        # subprocess.check_call([
+        #     'sudo', 'modprobe', 'v4l2loopback', 'devices=1', 'exclusive_caps=1'
+        # ],
+        #                       stdout=devnull,
+        #                       stderr=subprocess.STDOUT)
         subprocess.check_call([
             'ffmpeg', '-i', 'rtsp://@192.168.1.217:554/', '-vcodec',
             'rawvideo', '-f', 'v4l2', '/dev/video0'
@@ -120,8 +120,8 @@ def detection():
 
     # load our serialized face detector model from disk
     print("[INFO] loading face detector model...")
-    prototxtPath = "~/Desktop/deploy.prototxt.txt"
-    weightsPath = "~/Desktop/res10_300x300_ssd_iter_140000.caffemodel"
+    prototxtPath = os.path.expanduser("~/Desktop/deploy.prototxt.txt")
+    weightsPath = os.path.expanduser("~/Desktop/res10_300x300_ssd_iter_140000.caffemodel")
     faceNet = cv2.dnn.readNet(prototxtPath, weightsPath)
 
     def detect_and_predict_mask(frame, faceNet):
@@ -285,7 +285,7 @@ def detection():
 
         # All the results have been drawn on the frame, so it's time to display it.
         cv2.imshow('Object detector', frame)
-        cv2.setWindowProperty('ObjectDetector', cv2.WND_PROP_FULLSCREEN,
+        cv2.setWindowProperty('Object detector', cv2.WND_PROP_FULLSCREEN,
                               cv2.WINDOW_FULLSCREEN)
 
         # Press 'q' to quit
