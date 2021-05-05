@@ -34,19 +34,15 @@ def detection():
     non_authorized_frames_count = 0
 
     # Initialize webcam feed
-    # video = cv2.VideoCapture(0)
     camera = VideoStream().start()
 
     while (1):
         # Acquire frame and expand frame dimensions to have shape: [1, None, None, 3]
         # i.e. a single-column array, where each item in the column has the pixel RGB value
-        # ret, frame = video.read()
         ret, frame = camera.grabbed, camera.read()
         if not ret:
             input("No camera device found. Please plug a USB webcam to the Raspberry Pi.\nPress any key to continue...")
             continue # skips the rest of the commands for the current loop
-
-        frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
         # use the face detector model to extract bounding boxes and pre-processed faces from the frame
         locs, faces = detect_faces(frame)
@@ -63,7 +59,6 @@ def detection():
             temps.append(temp)
 
         # loop over the detected face locations and their corresponding locations
-        # frame = thermal_image
         frame = draw_boxes_with_predictions(frame, locs, pred_labels, scores, temps)
 
         # All the results have been drawn on the frame, so it's time to display it.
@@ -80,33 +75,28 @@ def detection():
         else:
             non_authorized_frames_count = 0
             authorized_frames_count += 1
-            # exit()
 
         if non_authorized_frames_count == 5:
             if "No Mask" in pred_labels:
-                # video.release()
                 camera.stop()
                 non_authorized_frames_count = 0
                 authorized_frames_count = 0
                 play_no_mask_video()
-                # video = cv2.VideoCapture(0)
                 camera = VideoStream().start()
             else:
-                # video.release()
                 camera.stop()
                 non_authorized_frames_count = 0
                 authorized_frames_count = 0
                 play_high_temp_screen()
-                # video = cv2.VideoCapture(0)
                 camera = VideoStream().start()
         elif authorized_frames_count == 5:
             ''' code to allow opening the door '''
             """
             # servo used is SG90:
             # datasheet specifies that at 50Hz the range of 0 to 180 degrees
-            # can be targeted at 1ms to 2ms (or 2% to 12% duty cycle),
-            # where 1.0ms (2% dc) is 0 degrees, 1.5ms (7% dc) is 90 degrees,
-            # and 2.0ms (12% dc) is 180 degrees.
+            # can be targeted at 0.4ms to 2.4ms (or 2% to 12% duty cycle),
+            # where 0.4ms (2% dc) is 0 degrees, 1.4ms (7% dc) is 90 degrees,
+            # and 2.4ms (12% dc) is 180 degrees.
             """
             screen = Thread(target=play_entry_allowed_screen, args=())
             screen.start()
