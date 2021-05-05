@@ -6,7 +6,7 @@
 
 -   Based on MobileNet V2 (SSD) pre-trained model:
 
-    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1x3a_JSMoKCcjiKo2UGFiot2A4JVBdYar?usp=sharing) _(Download TFLite model)_
+    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1x3a_JSMoKCcjiKo2UGFiot2A4JVBdYar?usp=sharing) _(Download TFLite model after training)_
 
 ## Step 2
 
