@@ -1,1 +1,618 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T00:31:51.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="0GntG0N3oDiOP9Vagrw6" version="14.6.10" type="github"><diagram id="n-eHk8eXgxV1rp7qz2Ko" name="Page-1">7V3bcuO4tf0aV/U82EWABC+Pst198tCpSs2k6mSeXLRE2zqRTUdSj+18/SElgMRlA4REAqRseSodieIdGwtr3y/Cm+f3/1nnr09/LxfF6gIHi/eL8PYCY4RSUv1fveVjvyUO0/2Gx/VyQXdqN/yx/G9BNwZ066/lotgIO27LcrVdvoob5+XLSzHfCtvy9bp8E3d7KFfiVV/zx0LZ8Mc8X6lb/3e52D7tt6Y4abf/rVg+PrErozjb//Kcs53pk2ye8kX5xm0Kv1+EN+uy3O4/Pb/fFKv65bH3sj/uh+bX5sbWxcvW5oC3NEnz36O7v/7M/va0/Pmv6PfX4DKi97b9YA9cLKrnp1/L9fapfCxf8tX3dut1u/VnWb5Wu6Fq4/8V2+0HHb7817asNj1tn1f01+oW1x//qr4EV4R9/bP+yr7cvgvfPti39+WWO6z69ic7Y/W5Paj+wh/zj2K9fC62xZpu2z9l/Wjal0c3bcpf63lheGOYyu82Xz8WW8OOqB3kanYUZXU/64/qwHWxyrfLv8Q7yamYPjb7NYf+o1xW94gDOqXimMoTnVBZIJ5h/wD0oFYcqg/cXbSbdkJygMAkngTmmIE/UsgGFI7QUjbinqIhjOqhQ0hv8q989Yte6eI2uZgF9b9ZtvuM2s8Z2f37ozpi9+Fmt0Oy+zfldtv9Opux3b5z58HtztIOWcTtHLfnb36Vha0C0df6YzU4+WpVrMrHdf5cjeErN+GF3zgkuH57Wm6LP17z3RC+VeuVKHMPy/eCrUD776vVTbkq17tLhw8PRTyfV9s323X574L7ZZFk90EtSevy18uiWNDj6Wsu1tvi3SxZqiTQA8IQC5MdRXS2v7VrEUopIj1x61AcOBKeFBSe7JoJiTNwaBDBGg+q1769Xa4rVrAsX6pt6231pNer/L5YVVddFGtuCIPd3zRAJLYEERwaZecyuAoDxkZ6LjrV+xHkMIwk+drfrLLqzNbr/IPb7bXeYWO4Dhavg9NAktj9GaWj2enLh4dN4WTZQ5nfdQ9ZS3kjsEgQ11Z6pyOwGnntS4gk2VSwbyDZJJFRNjv3R4lBloeSUzZ/ZHy+oWs0JMQ/a0SsJCJfLR9rnJxXArBbL+ula1mpQjP6w/NysdgJ9rrYLP+b3+9OUssSfXXVGcn1BbnVYu+mWnuXL4/V97QbienO/9zNnLTdcF1ut+WzuO13uvJxm34WD1vhQvn834+7BZq72I/dn/3KTbVM+ugXjW7HzxoDfhixuhIQQV6YbtZzelwyhVs6rXvMjGFRjFq6mN0yNhhRcthwywxxcht1s8pQ5R7rp/L5/temm/jBwjo8mYuyq4SIGIIBPkfwFVEZXeqK0SGkvLmzSier8R5Wt36DqMH9/YTJuNkVCDNq/1M1zegEu+a0L2Kl0Um70QkZcz9F2rNRFCDcTSrnrJ8l2I9pvKre//X9uvr0WH+a9hM2S+5RD3ylTMpO7VXUVkn9H6Stxru/+ojyZctt3//5g8PGcvUhAhwHhZhSJgEIZdVjsDmEVcPIothWr+HuoXrpm28P6/y5+E0Zl83b8nmVvxR2REN66Q3boSPpxIqAQkl7A1adMAVedYYN75pe7veaD708Vm+jHVn5ejG0ygHXYyPALpevKiL6km+L6/qVbFyQFGZg4YGTAk1FJF8EqOGNVZI1KzIBiIwJmLOrhQI6cWBVYcB7/b+Q3U71eMIdHYgP+f2mXP3aFrP1nLNx5e23qAEL5uhA/URasZ/Vf8fJ9zH2D4QaHvUhIocghgDVcmY8y7B7qnW02+RIqqUXkGbAdQJiwdKMQN1tjre1TMRkTPIWajSlmDOvcxSj2iJwiozTmoiwnYJKZKQtmaiJoS4kO8OOGXYkcxSCVDxosXXGa2ICi9cNJzGMrKrMecavVghY1GbsbALBbr7u/00g9s8p/VQiY4UkqwJ3GN9SRYsTTk8iIRsCAabbGNiFdUj27Q6nLoaZSSZgO6G7ZYpbpNolq2uZOszcPcIyxeZd5zIVscCWzmUqMcrZZXAVUWPfsUZD91ZB9rD2ZkFeWZf4Ml2tOB26Qhrhp0zAkj16MRCqVRACmxUoEc/oZ2Eh5Rzl7Z0G3E9EPoNsGkBG4Is0lo5IvgSF2oS71X6G0KPwdDBzwUHMjNlUkQCtTdgYb0SIQHsqQq7ANYKx1TJmAqBzt0aBMAjloVxOF13BiYg6/keHXnAkENdn3n8OrnA4qM+mr4il+AqLemTIrPg8pYugBdyViBE4hsdDGAa/fPvXGI8K6RC9joe4FTkfIuBoPEbLng6XiDo9kkEWDBM9giIiWWJC2bCoiVrU++hVt7t76kISE3XxZBdEcfBe/6+xCy6WfwmTPf7Pr3K/vZkn9XXqqdL81hoRG9vi7jRTMy22Uxf7A3wsSyuJALyHFDbiTIX3rZF9TsOhNYoS2yBvotHI/BgOiSYak9MIeCvPjAiwZGKOanRuJ3p9b41BlOTOzhDlC6IiiJJ6hSjiIUJShCj8tTGKqZndGJX2xKijwiUr/VqWUepr0wVMxopQiwe4iZiMjfYo0mIfdZdE1qgHBap0OmsEaO502YAXOmv9AyAsktKsmihjHmBxCFmWGBQPzwKBWAUXonqYw5C3zl5DjAIU0htOPPk8I0IF9iykNkIqI2aMABqAfVqmYg8ZpWdNRbVJdPuO8JiaShz6FovEXi56jK/DAGVP7DDWxA72tPk1h8jI1JGVMxit06jG4zi4pw1SHfZz57Ia22JY1FdW+2GY0fwLeq47Q2xwy9gpJ5N+utHwp8GjbFSPocgUv5ZfORbRK4RiuDy7lRMN+wdpvWV8YKdb2VHQ4Ndk812Rg2kmCF0GxSsz/54XMs/SL8Z1Mx+cEn1CfM46lNl6jUw0PL/166aEQUlfv66UwaOkiwxVFUCyxeAs5E/XuX+amTO1cc/92UQdvUpBAoSFKHP0ZTGr62JV3+arfLNZzkXc7Z7DJzi9umdNBM8aDnqhhCW2ra+ylMAC2BUeoc5IqX5GFtrNyMEEMDqUo/SydHeaHvmSRWdb45BB7OOTE6zR8Hl9J+E0L6CYlDKIbOSf3x/rcoZXD6vybf6Ur7dX1fg9L1/ybf36j8hOaZJrAV37pdwlM8D6DidzkPAMX6QgldZadZgzAAidJa+EE7Yna8SAjmcPk7B1ubm+Nl0Nf5JWkciy2tNgq0g63TGfpg/BVmDY+tzNhzTRoX2JjpwKZVtIbLA6XjofqjeVtmeVr/EKoSS2HgWkcym0KmgWJMkgzJlIqlgol8kZSAXFqWgQRFFk1hFjqQbCwQcwENbtnzLdBt5fp4S+gy/anUpaPRg84bw5YoTaQ8dMuDCZ/JSrgLVryqWIeeDcxn3hQJ4pHXXyQiYhmgNGNKcAiVzm2iCSE0hMH4RzETXFPRR9V3fh75esxNAs4DQfoleHzT4eu2IjJ+L66aiLE8shii0f4dXaGFB43JVjw95DJY5iv/gE6W+KbSkMGkSzOjxmVjIEIpyYwRMFMqM++Iikw9odp2mv/bOOG0pCYtrfTdQvkwQO2iuJuNvUjR8Wd9vi+fVu+Zw/Ft/61vsauv5EB6IFsiU5UfEMQ3kBobuK4R5aBnwubd4osd0gZ6vjp6MWPUphV0FnlryB5VB+k3L8hvMu8FUi2lgbg1+Bz6JiTI4aCbh7mHGXy9QcGJ8NC46Co6HcB6lmxWwsP3LtW9CBkEExNe6g6Wxo9AtNxBaaRm2Qwm7z0DxvWwXshtvtu7KzDpT4IEHOUSokeIoV4+Tccfm0OHoP8bta/tmFSucJZsJM1uig8mteMyLOwcaeQca26GPa18fRD2SM5fEzLgaCCAETgn/bCj2+cbtea4IgfohgEdkRIP7+bijHEuphHYePe6Tbm6lCZidTsiPZe1E1tEmbpI5CtUguQYShdMQw8MueDjaPGpZOgzyrHSJEyk3Ppk8ztCqsIh8epcF7HAX18qizxX6aisyjCjeWyzTjtEmrHa1SMw48WGFPuCtGZsvkkc4z5WeVzTRU3nvt2zpkmU/KcFEN4IQMlXEkGolTIMMGrIlLAmeOl0BTVG/wShARpUrtUWYzlbYS8peMU806yjWmMleKoOwtuHSDs+o4KNAkD57zUb3lo2a2+agosO7xPIyfUHXSEaXoKJYTC11HygWm+OpzuutpKZgdoElS2To/hYxXhM72eb/Ah7At8AXjtrtjN8qB085pn1eTI38s7h7W5fPd/X35vu/adYFr6Ki/T82ff8xs1a0MvI8fylZD7vpJoPg8UweYqY1cW0xVWzc/jfscb6pqcgI7i5TytmFe64WMwZ1VTAczMJ5rmR6KZlqSzALAupmH10qmjXvwlMAMnTaYWZsTeytcPcFMY0/ke7Dw3jUEWf04tWSGB7IRGaMGTFB60jYlt0rTgcCFIJ8c2NfLHXKpa+1inb/dVcS32Ny9LbdPd6/rYrHcva8Nz41X5Xyz/1TvcLd793TDZl6uC/q5JtmbqXHoDlMzTuWYkChTRyqCovwddmDDo3omeH8sb/jg4wNuIexC3HWDC5WI8dyKxnLKQUnfOMSUKJ9V2fnf9qKoGHASbkvj1nUnqI6xpyOjC4WyxYYAMh2CFptYrtMzYF/Bs9Hw8xgNKUbpZVDuizUFmyHByhhMnrxP0RKBrY2GkW3AHRq3ficiGkvEKOXsjkpF/pJSs1/YvOfiJVIJ0I58fBTEpv3dpLE1QVGTcCu7L2fxWURa13zPcWo+K35iKdJyZr4fkY6MgdEQhew0Ac94rYVVfQOY3bX+bGCfDKy/VsatLBGnsBDuWQZKVONrnXFNuS7DVLwxRb/8fN2CD2WsCDAE6CirXEpxOF6iaRhMFQ3etCiqP1QnirnPOnPifv+QE0FIps8uDkdyh5NYaSIM6Oue/RyRhg+fY9JGoQ+hddRZNGp6JGIS6RCv+MMJte6d8cobXpFJwhVWxa4dz1ay+DJLKT/iSvoZ/bfx8PNmyWvFLHkj7gZmuCUcgcPCfbR3pibmdnPZb/J97I3vuEnFs6Wie+O5niNIz8eb6bNYfEP82VNl5x/Gp7R8T+B9Euhurbm0PGKdugOG7p+/T0650OIZiHy8P4c3LbMSGLAnh8daMU/kgAYcn5Dao0Ru2w3ExaEsgci9Ozcfax1+plHerDDImkbhUWkUu9Ge65kBitS1AAk7q/lLQEYaaGux6ws0UyJOmmQqwJdm6DB+hk/n8BkmV4FYURbMmyLpFVMb/YS0EMAcqCDqKfY0aRE7qgSxxeygGgdixu3qCxdZ1atDShMy1A2s2DriWCdrnrqpSAUOZcOdbTMVpe2QHDYxVG1pufJzR/ch4+6u/EwaE+XpuE7jUyxYam8TsqkAHR1XAVotuh4oVZYSR3ODEFHYUUzMvb+UAzrLTydTLT+NsgnXoFD5ywSqUqDYlvvrapL0zduNEFz8duh5IVf/T0hHdIJcWVg6wNGyEasqDo0//vZQkWdzJPHwkcBEHByo2HcYAsQkZKWOhqe38ahhwIYCJadbeeSopiSoM5QRLEei9K8ZTjISjWQMXY7kIJs1FQ5Vowe6q51UJslwctahZxO52hVQodtvgUqUaIK2z35gb7VJmnWgm+PY92FK+4bbariETLFl67nryiRQX5YWic5JBqdlmOwAzImWJkm962b4OFyMYh4ZL2vrYtwBj7tvgxkY7ZEttfbcJOOWNPBRN14c/GQS1SH9DXBv/bznAAOuuYYqm5pTWKJ7xHmawI7U+pxwrUoGFpgEa94arqtzh0nhzGeqb7FyRZKNNFXXraZ0j58IKqDrkROVEowduuUdrp2xQ2cJs1EmZQ/V+LokVBS8hY7J9tedpjnbXtXLNDlyrfcnTJjJuK/6h7BoRlVK8g5l444z8TqdGXhJajpgTE+OJmIaRFSudkKHVa5hFYYuVlDwzS0Y1PLpMbard57kuyFQyLNfNM1gHmqQG/PSa6oRdF6MbQWl8cpPSFAAZqcstb2jpMZYJS3WPs1w+Yk20q46B8cbEelESpkW13ZVptkdgDbuiti7aJDoYs2QbOEhWGwe8hy6wwIPIeefiWXbV3vP+vYyOYoHoyAQhSyLzDFQygGI+a4N1Nl8hJv4EOyjbLBgSOVEtXU0wsK6yDdPElYMIm846Gu81o1hqhS6i2Vb0kCqmelabiUmsOjNaUgkUAvMxbKBa0r2zZgnvIhkJImiOA1SgoI4sqO/ghg74MKZKggYWAJZsoun7l2aGiIGfdsy0smgaZPW0GXq+2qwvk9F7CaiZ8lrUiMw4wkWE+0vtWC5anKjLiI4sOxyM8CC1VzLMcWBNHO+SyZQuAAoUzC8HmbXw/K89B2y9GWAj88zQvnomTM9hOrbjcae5qay4u6QUqc+crvoyzs7Jz4RDqVQKXrPOJR9RRwaxEBkhQ2Zo4w707Uc49Dh5meDs+u0PV2niTpQNUXPqJN8RdTxZ1BM5Hwnh6jDruUYdTQGRQPqdPbuPiJ6Eyqf0l0d5QxXPeAqgepDeTYn+YKrxs0mONloWLlNkZILWx/fkMAWWscADFIiXkEl2QCZyNncGtf+weiXyheiT67112HlAHzYAV5sX+ERTc9/1lAhSm++Wj7WiUfzSoJ2aFRDwXKer2b0h+flYrGbGuuiQqH8fne+Whjpi69OTq4vyK09sszLl5divqWnumjsvp0hu3RKa4HoMrjK4jASBuOSXvRYaXUfwIgJAgdrEqUoJhBDgK1rI1FM6wFVPVccjZIVcYwEiz5TO9cqWCdTOArgK6bMf0Zmnor3/LFOPARJSOumIiO5qaq5IRfLRSTACrXAUP0A5Kx+AA6nFIl/avPZmnngfSzoaPOZ3ahVLrRdtcUZ35k5kzWetrijnSrTJ115sMzjrhms5BijOI6UGYxSn6VjcaQGopznKC/6tu128Lh9x5obPcQFPN8vXbu69Y/338iuWOuujYzw8TeNqzgSluQWCtpS/Jes/KtcoPt7u5F2Q5cOjWRIaGgDb5WVuuoIrY/tqAWcNKvDG/2ZhRRctbGAtSvcTQ8ATxinBNNkQaYCHJiOmjoDOI3jsVEP4/y5fskv95tXaEC8WXZPAAut60SGfXuHHGXhCAOxm17jK9BWOZUptXSAI4tFpCmFNPH01dMSwd7ta44SwYjpZLYiGKVmmXVlNDukhfIYjN7kWo3E29PXkRfCRsTSFQZLQrNk7+/TVHygKTHPh+L+EC8E1bY4CX1Ftv4CjlcceC6JhMmEy9VqHCAe4dG6LQUety0FhtpS2OgFsh5hoP12hN+W6nP9kA7g/MHu0YLg6lCe/7BcrfiKgaT+r6H23C/x7u9CqSW4//NI/YPAJk4VszaUPFy4M08CnYvJYfJhO9LTx6TDSBssNoNiFbbFKjJKRmRIRGbWFMLRuj+zzHiAIypHPMdiH6MwjLYe2svYOBqr1CwbszxhrbogJd0ecQBKfQjliIG5RwnlVVeQyihi6SbjIJSZvZtwO9kcUxd1MsoqUUT1oP3Zc7iVbBan9ZXCTfaz2RhuggMp3GSYOmBSFTDpeIexKFAfWJ2BZMZVvBQS42queSDf7NRHTtB0UMnGJEwHvtNqT8zVGdm7OjXhZ76MB2dX50iuzuOsIF/A8xkhpZk5yoJEQT0Edf5xF/pN8AlAHhoN8BJrwOtrLdUpZ+QqTeSKAaTpHu2pJlvzIk7GGns2v0r4E5JYiS6bgP01mTDlGhJJhrFQqtqPxKOVqu1DNYeVjUTYS5ktAoeJz/geNnuEkVrd7DGBNRwQfuLS/OFAc85TO5Oanh8dYt6BJiorGd79EirRpWAvAL8VYzEzb04i0uW0gq2ItTamazro2j0SyeIWXrjHDHMrS8/LzWnFTh0gUeY2z8FVGLD6r26FjCj+EZOQ+U1W01T/AyOooBI0QjiUvpQfqHOfalBRmCnuqylYBmPf3qqRaOowK0U3TXXlUJKXHCx6fDodStiPh8iULQWS0hnfEpLTYZtQQkpKG2TgQUMJuzSXwxI05VA4odCZkus8BsZC0VtKD7w62OmL86LQjUS0NkyOb+NMFkWoGJZnsu29YWDv0Ejab9ITAWLZdmNVekCy491RTyOFNXVVZpcB/MD9vUSsx7CxoDOnvInjbuFMbbprUPXBbuZgw/sGzfnSXxbVUmW7Bhi0zrUOlluia4qOy2Hsk8NQUvE8yWfSipYDGK2+rsvatdfKZfXYT38vF3Vwxvf/Bw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-06T00:33:33.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="HKiztCkCJaK0_kDCDj8L" version="14.6.10" type="github">
+  <diagram id="n-eHk8eXgxV1rp7qz2Ko" name="Page-1">
+    <mxGraphModel dx="1422" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-28" target="w878aR4_vY9HhiLX4Rp0-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-3" target="w878aR4_vY9HhiLX4Rp0-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-3" value="ניסיון לקריאת מסגרת מהמצלמה" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="332" y="140" width="188" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-8" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=1;exitDx=0;exitDy=0;textDirection=rtl;labelBorderColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-6" target="w878aR4_vY9HhiLX4Rp0-23" edge="1">
+          <mxGeometry x="-0.3069" relative="1" as="geometry">
+            <mxPoint x="300" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-6" target="w878aR4_vY9HhiLX4Rp0-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="280" />
+              <mxPoint x="540" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-20" value="לא" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];textDirection=rtl;spacing=8;labelBorderColor=none;spacingTop=8;spacingBottom=8;spacingRight=8;spacingLeft=8;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.3217" y="-4" relative="1" as="geometry">
+            <mxPoint x="-38" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-6" value="האם התקבלה מסגרת?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="349.75" y="220" width="152.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-10" target="w878aR4_vY9HhiLX4Rp0-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-10" value="משתנה של כמות מסגרות רצופות מאושרות = 0;&lt;br&gt;משתנה של כמות מסגרות רצופות לא מאושרות = 0." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="80" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-23" value="detect_faces(frame)" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;html=0;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="320" width="380" height="920" as="geometry">
+            <mxRectangle x="230" y="360" width="150" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-32" value="&lt;span&gt;המרת המסגרת לגודל של 200x200x3&lt;/span&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;fillColor=#ffffff;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-23" vertex="1">
+          <mxGeometry x="112.5" y="40" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-92" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-23" source="w878aR4_vY9HhiLX4Rp0-36" target="w878aR4_vY9HhiLX4Rp0-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-36" value="זיהוי מיקומי פרצופים במסגרת" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;fillColor=#ffffff;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-23" vertex="1">
+          <mxGeometry x="100" y="120" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-65" value="לולאה שעוברת על כל אחת מהתוצאות" style="swimlane;labelBackgroundColor=#FFFFFF;strokeWidth=1;html=1;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-23" vertex="1">
+          <mxGeometry x="40" y="180" width="300" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-139" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-65" source="w878aR4_vY9HhiLX4Rp0-41" target="w878aR4_vY9HhiLX4Rp0-67" edge="1">
+          <mxGeometry x="-0.48" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-41" value="האם המודל בטוח ביותר מ50%&lt;br&gt;שיש פנים אנושיות בתוצאה&lt;br&gt;הנוכחית?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
+          <mxGeometry x="31" y="210" width="242.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-49" value="קריאת מיקום&lt;br&gt;הפנים במסגרת" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
+          <mxGeometry x="82.25" y="375" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-53" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;textDirection=rtl;labelBorderColor=none;spacing=8;spacingTop=8;spacingBottom=8;spacingLeft=8;spacingRight=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="w878aR4_vY9HhiLX4Rp0-65" source="w878aR4_vY9HhiLX4Rp0-41" target="w878aR4_vY9HhiLX4Rp0-49" edge="1">
+          <mxGeometry x="-0.0909" relative="1" as="geometry">
+            <mxPoint x="145.5" y="320" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-57" value="המרת המסגרת לגודל של 160x160x3&lt;div style=&quot;direction: rtl&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=#FFFFFF;spacing=2;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
+          <mxGeometry x="25.5" y="545" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-60" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-65" source="w878aR4_vY9HhiLX4Rp0-58" target="w878aR4_vY9HhiLX4Rp0-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-58" value="חילוץ הפנים מהמסגרת למערך&lt;div style=&quot;direction: rtl&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=#FFFFFF;spacing=2;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
+          <mxGeometry x="25.5" y="475" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-59" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-65" source="w878aR4_vY9HhiLX4Rp0-49" target="w878aR4_vY9HhiLX4Rp0-58" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110.5" y="455" />
+              <mxPoint x="65.5" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-61" value="הוספה למערך&lt;br&gt;מיקומי הפרצופים&lt;br&gt;במסגרת" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
+          <mxGeometry x="160" y="600" width="123.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-62" value="הוספה למערך&lt;br&gt;פרצופים מוכנים&lt;br&gt;לסיווג" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
+          <mxGeometry x="15.5" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-64" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-65" source="w878aR4_vY9HhiLX4Rp0-57" target="w878aR4_vY9HhiLX4Rp0-62" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-63" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="w878aR4_vY9HhiLX4Rp0-65" source="w878aR4_vY9HhiLX4Rp0-49" target="w878aR4_vY9HhiLX4Rp0-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="221" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-68" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;labelBorderColor=none;" parent="w878aR4_vY9HhiLX4Rp0-65" source="w878aR4_vY9HhiLX4Rp0-67" target="w878aR4_vY9HhiLX4Rp0-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-67" value="האם הלולאה עברה על&lt;br&gt;כל אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
+          <mxGeometry x="61" y="30" width="182.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-72" value="מערך מיקומי&lt;br&gt;הפרצופים במסגרת" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-23" vertex="1">
+          <mxGeometry x="189" y="940" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-70" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="w878aR4_vY9HhiLX4Rp0-23" source="w878aR4_vY9HhiLX4Rp0-67" target="w878aR4_vY9HhiLX4Rp0-72" edge="1">
+          <mxGeometry x="-0.8572" relative="1" as="geometry">
+            <mxPoint x="190" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="293" />
+              <mxPoint x="360" y="890" />
+              <mxPoint x="260" y="890" />
+              <mxPoint x="260" y="940" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-73" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=#ffffff;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="w878aR4_vY9HhiLX4Rp0-23" target="w878aR4_vY9HhiLX4Rp0-74" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="890" as="sourcePoint" />
+            <mxPoint x="120" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-74" value="מערך פרצופים&lt;br&gt;מוכנים לסיווג" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-23" vertex="1">
+          <mxGeometry x="40" y="940" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-28" value="התחלה" style="strokeWidth=1;shape=mxgraph.flowchart.terminator;labelBackgroundColor=#FFFFFF;fontColor=#333333;labelBorderColor=none;textDirection=rtl;html=1;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="20" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-34" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" source="w878aR4_vY9HhiLX4Rp0-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-78" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="1" source="w878aR4_vY9HhiLX4Rp0-74" target="w878aR4_vY9HhiLX4Rp0-79" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-162" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-79" target="w878aR4_vY9HhiLX4Rp0-161" edge="1">
+          <mxGeometry x="-0.9077" relative="1" as="geometry">
+            <mxPoint x="560" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="281" y="1440" />
+              <mxPoint x="630" y="1440" />
+              <mxPoint x="630" y="320" />
+              <mxPoint x="823" y="320" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-226" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.375;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-79" target="w878aR4_vY9HhiLX4Rp0-224" edge="1">
+          <mxGeometry x="-0.8115" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="201" y="1480" />
+              <mxPoint x="326" y="1480" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-79" value="&lt;span&gt;האם יש יותר&lt;/span&gt;&lt;br&gt;&lt;span&gt;מ-0 נתונים במערך?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="160.5" y="1340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-123" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="1" source="w878aR4_vY9HhiLX4Rp0-82" target="w878aR4_vY9HhiLX4Rp0-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1170" y="1270" />
+              <mxPoint x="1040" y="1270" />
+              <mxPoint x="1040" y="790" />
+              <mxPoint x="688" y="790" />
+              <mxPoint x="688" y="970" />
+              <mxPoint x="735" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-82" value="get_scaled_temp_image()" style="swimlane;labelBackgroundColor=#FFFFFF;strokeWidth=1;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="870" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-87" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-82" source="w878aR4_vY9HhiLX4Rp0-84" target="w878aR4_vY9HhiLX4Rp0-85" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-84" value="קריאת נתוני טמפרטורה&lt;br&gt;מחיישן תרמי" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-82" vertex="1">
+          <mxGeometry x="24.75" y="40" width="149.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-88" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-82" source="w878aR4_vY9HhiLX4Rp0-85" target="w878aR4_vY9HhiLX4Rp0-86" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-85" value="המרת הנתונים לתמונה&lt;br&gt;ברזולוציה של&lt;br&gt;24x32x1" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-82" vertex="1">
+          <mxGeometry x="39.5" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-90" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-82" source="w878aR4_vY9HhiLX4Rp0-86" target="w878aR4_vY9HhiLX4Rp0-89" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-86" value="היפוך התמונה&lt;br&gt;(מכיוון שהחיישן פולט את הנתונים בסדר הפוך)" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-82" vertex="1">
+          <mxGeometry x="34.25" y="200" width="130.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-89" value="&lt;span&gt;המרת התמונה התרמית&lt;br&gt;לגודל של&lt;br&gt;480x640x1&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;fillColor=#ffffff;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-82" vertex="1">
+          <mxGeometry x="22.5" y="283.5" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-203" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-95" target="w878aR4_vY9HhiLX4Rp0-124" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-95" value="לולאה שעוברת על כל אחד ממיקומי הפרצופים" style="swimlane;labelBackgroundColor=#FFFFFF;strokeWidth=1;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="648" y="830" width="300" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-103" value="הוספה למערך&lt;br&gt;הטמפרטורות" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-95" vertex="1">
+          <mxGeometry x="88.25" y="430" width="123.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-107" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;labelBorderColor=none;" parent="w878aR4_vY9HhiLX4Rp0-95" source="w878aR4_vY9HhiLX4Rp0-108" target="w878aR4_vY9HhiLX4Rp0-112" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="152.25" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-108" value="האם הלולאה עברה על&lt;br&gt;כל אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-95" vertex="1">
+          <mxGeometry x="58.75" y="30" width="182.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-118" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-95" source="w878aR4_vY9HhiLX4Rp0-112" target="w878aR4_vY9HhiLX4Rp0-103" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-112" value="temp_average_from_bbox(frame, bbox)" style="swimlane;labelBackgroundColor=#FFFFFF;strokeWidth=1;html=1;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-95" vertex="1">
+          <mxGeometry x="25" y="210" width="250" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-116" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-112" source="w878aR4_vY9HhiLX4Rp0-114" target="w878aR4_vY9HhiLX4Rp0-115" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-114" value="חילוץ איזור הפנים מהתמונה התרמית&lt;div style=&quot;direction: rtl&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=#FFFFFF;spacing=2;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-112" vertex="1">
+          <mxGeometry x="75" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-120" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-112" source="w878aR4_vY9HhiLX4Rp0-115" target="w878aR4_vY9HhiLX4Rp0-112" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-115" value="חישוב ממוצע&lt;br&gt;הטמפרטורה&lt;br&gt;באיזור" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-112" vertex="1">
+          <mxGeometry x="75" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-124" value="draw_boxes_with_predictions(frame, locs, pred_labels, scores, temps)" style="swimlane;labelBackgroundColor=#FFFFFF;strokeWidth=1;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="628.5" y="1490" width="460" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-125" value="לולאה שעוברת על כל המערכים ממבוא הפונקציה (חוץ מהמסגרת), במקביל" style="swimlane;labelBackgroundColor=#FFFFFF;strokeWidth=1;html=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-124" vertex="1">
+          <mxGeometry x="13.75" y="50" width="432.5" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-138" value="האם הלולאה עברה על&lt;br&gt;כל אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
+          <mxGeometry x="125" y="30" width="182.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-152" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-125" source="w878aR4_vY9HhiLX4Rp0-146" target="w878aR4_vY9HhiLX4Rp0-141" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-154" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-125" source="w878aR4_vY9HhiLX4Rp0-146" target="w878aR4_vY9HhiLX4Rp0-150" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="171" y="320" />
+              <mxPoint x="106" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-155" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-125" source="w878aR4_vY9HhiLX4Rp0-146" target="w878aR4_vY9HhiLX4Rp0-149" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="262" y="320" />
+              <mxPoint x="326" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-146" value="האם הפנים מסווגות כפנים&lt;br&gt;עם מסיכה, והטמפרטורה&lt;br&gt;מתחת ל-38 מעלות?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
+          <mxGeometry x="125" y="190" width="182.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-149" value="בחירה בצבע&lt;br&gt;אדום&lt;br&gt;&lt;div style=&quot;direction: rtl&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=#FFFFFF;spacing=2;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
+          <mxGeometry x="276.25" y="350" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-144" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-125" source="w878aR4_vY9HhiLX4Rp0-138" target="w878aR4_vY9HhiLX4Rp0-146" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-150" value="בחירה בצבע&lt;br&gt;ירוק&lt;br&gt;&lt;div style=&quot;direction: rtl&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=#FFFFFF;spacing=2;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
+          <mxGeometry x="56.25" y="350" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-142" value="&quot;ציור&quot; תווית הכוללת את הקטגוריה של הפנים (ללא / עם מסיכה),&lt;br&gt;את אחוז הביטחון של הקטגוריה&lt;br&gt;ואת טמפרטורת הפנים מעל הריבוע&lt;br&gt;בצבע שנבחר על גבי המסגרת" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
+          <mxGeometry x="117.5" y="510" width="197.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-145" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-125" source="w878aR4_vY9HhiLX4Rp0-141" target="w878aR4_vY9HhiLX4Rp0-142" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-141" value="&quot;ציור&quot; ריבוע מסביב למיקום הפרצופים שזוהו במסגרת בצבע שנבחר על גבי המסגרת" style="whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
+          <mxGeometry x="137.03" y="430" width="158.44" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-156" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=#ffffff;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.499;exitY=0.035;exitDx=0;exitDy=0;exitPerimeter=0;" parent="w878aR4_vY9HhiLX4Rp0-124" source="w878aR4_vY9HhiLX4Rp0-124" target="w878aR4_vY9HhiLX4Rp0-125" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="30" as="sourcePoint" />
+            <mxPoint x="360" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="30" />
+              <mxPoint x="230" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-159" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="1" source="w878aR4_vY9HhiLX4Rp0-138" target="w878aR4_vY9HhiLX4Rp0-224" edge="1">
+          <mxGeometry x="-0.8415" relative="1" as="geometry">
+            <mxPoint x="509.5" y="1720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1653" />
+              <mxPoint x="550" y="1480" />
+              <mxPoint x="376" y="1480" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-193" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-161" target="w878aR4_vY9HhiLX4Rp0-82" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1418" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="823" y="750" />
+              <mxPoint x="1170" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-161" value="predict(faces)" style="swimlane;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="658" y="340" width="330" height="389" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-165" value="לולאה שעוברת על כל אחד מהפרצופים" style="swimlane;labelBackgroundColor=#FFFFFF;strokeWidth=1;html=1;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-161" vertex="1">
+          <mxGeometry x="15" y="30" width="300" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-175" value="הוספה למערך&lt;br&gt;קטגוריה מזוהה" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-165" vertex="1">
+          <mxGeometry x="15.5" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-178" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;labelBorderColor=none;" parent="w878aR4_vY9HhiLX4Rp0-165" source="w878aR4_vY9HhiLX4Rp0-179" target="w878aR4_vY9HhiLX4Rp0-181" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-179" value="האם הלולאה עברה על&lt;br&gt;כל אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-165" vertex="1">
+          <mxGeometry x="58.75" y="30" width="182.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-183" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.546;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;" parent="w878aR4_vY9HhiLX4Rp0-165" source="w878aR4_vY9HhiLX4Rp0-181" target="w878aR4_vY9HhiLX4Rp0-175" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-188" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="w878aR4_vY9HhiLX4Rp0-165" source="w878aR4_vY9HhiLX4Rp0-181" target="w878aR4_vY9HhiLX4Rp0-182" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-181" value="קריאת תוצאות הסיווג&lt;br&gt;הפרצוף ממודל סיווג המסיכה" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-165" vertex="1">
+          <mxGeometry x="45" y="180" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-182" value="הוספה למערך&lt;br&gt;אחוזי ביטחון" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-165" vertex="1">
+          <mxGeometry x="160" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-189" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-179" target="w878aR4_vY9HhiLX4Rp0-190" edge="1">
+          <mxGeometry x="-0.3723" relative="1" as="geometry">
+            <mxPoint x="1128" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="869" y="520" />
+              <mxPoint x="1078" y="520" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-190" value="מערך קטגוריות&lt;br&gt;מזוהות" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1018" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-191" value="מערך אחוזי &lt;br&gt;ביטחון" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1138" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-192" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="w878aR4_vY9HhiLX4Rp0-191" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1078" y="520" as="sourcePoint" />
+            <mxPoint x="578" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-194" value="מערך טמפרטורות" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="1330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-195" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-108" target="w878aR4_vY9HhiLX4Rp0-194" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="943" />
+              <mxPoint x="1000" y="1300" />
+              <mxPoint x="1070" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-216" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="w878aR4_vY9HhiLX4Rp0-205" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1088.5" y="1650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1088.5" y="1650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-205" value="המסגרת מהמצלמה" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=#FFFFFF;dashed=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1198.5" y="1620" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-206" value="מערך פרצופים&lt;br&gt;מוכנים לסיווג" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="1260" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-220" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="w878aR4_vY9HhiLX4Rp0-212" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1088.5" y="2010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1088.5" y="2010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-212" value="&lt;span style=&quot;&quot;&gt;מערך טמפרטורות&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=#FFFFFF;dashed=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1198.5" y="1980" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-218" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="w878aR4_vY9HhiLX4Rp0-213" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1088.5" y="1830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1088.5" y="1830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-213" value="מערך קטגוריות&lt;br&gt;מזוהות" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=#FFFFFF;dashed=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1198.5" y="1800" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-219" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="w878aR4_vY9HhiLX4Rp0-214" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1088.5" y="1920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1088.5" y="1920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-214" value="מערך אחוזי&lt;br&gt;ביטחון" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=#FFFFFF;dashed=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1198.5" y="1890" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-217" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="w878aR4_vY9HhiLX4Rp0-215" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1088.5" y="1740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1088.5" y="1740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-215" value="מערך מיקומי&lt;br&gt;הפרצופים במסגרת" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=#FFFFFF;dashed=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1198.5" y="1710" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-227" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-231" target="w878aR4_vY9HhiLX4Rp0-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="1770" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="180" y="1731" />
+              <mxPoint x="120" y="1732" />
+              <mxPoint x="120" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-237" value="לא" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-227" vertex="1" connectable="0">
+          <mxGeometry x="-0.9634" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-251" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-224" target="w878aR4_vY9HhiLX4Rp0-231" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-224" value="הצגת המסגרת על המסך" style="strokeWidth=1;html=1;shape=hexagon;whiteSpace=wrap;size=0.25;labelBackgroundColor=#FFFFFF;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="251.25" y="1502" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-239" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-231" target="w878aR4_vY9HhiLX4Rp0-238" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-231" value="האם במסגרת קיימים פרצופים?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="258.75" y="1664" width="185" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-244" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-236" target="w878aR4_vY9HhiLX4Rp0-241" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-236" value="&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;העלאה ב-1 של משתנה המיצג את כמות המסגרות הרצופות המאושרות&lt;/span&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="1909" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-243" value="לא&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-238" target="w878aR4_vY9HhiLX4Rp0-236" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="301" y="1890" />
+              <mxPoint x="225" y="1890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-248" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-238" target="w878aR4_vY9HhiLX4Rp0-246" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="1890" />
+              <mxPoint x="481" y="1890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-238" value="האם במסגרת קיימים פרצופים&lt;br&gt;בהם חום הגוף מעל המותר&lt;br&gt;או אין מסיכה?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="1790" width="202.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-253" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-241" target="w878aR4_vY9HhiLX4Rp0-242" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-241" value="משתנה של כמות מסגרות רצופות לא מאושרות = 0." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="100.5" y="1980" width="249" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-255" value="5 מסגרות מאושרות" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;textDirection=rtl;" parent="1" source="w878aR4_vY9HhiLX4Rp0-242" target="w878aR4_vY9HhiLX4Rp0-254" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="351" y="2160" />
+              <mxPoint x="199" y="2160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-258" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-242" target="w878aR4_vY9HhiLX4Rp0-256" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="362" y="2108" />
+              <mxPoint x="400" y="2108" />
+              <mxPoint x="400" y="2118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-259" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-242" target="w878aR4_vY9HhiLX4Rp0-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="301" y="2112" />
+              <mxPoint x="50" y="2112" />
+              <mxPoint x="50" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-260" value="לא" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-259" vertex="1" connectable="0">
+          <mxGeometry x="-0.9204" y="-3" relative="1" as="geometry">
+            <mxPoint x="28" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-242" value="האם נספרו 5 מסגרות רצופות?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="250" y="2040" width="202.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-250" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-246" target="w878aR4_vY9HhiLX4Rp0-247" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-246" value="&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;העלאה ב-1 של משתנה המיצג את כמות המסגרות הרצופות הלא מאושרות&lt;/span&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="416.25" y="1907" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-252" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-247" target="w878aR4_vY9HhiLX4Rp0-242" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405.875" y="2057.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-247" value="משתנה של כמות מסגרות רצופות מאושרות = 0." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="356.75" y="1980" width="249" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-270" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-254" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="2250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="2250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-254" value="פתיחת הדלת והצגת אישור על המסך" style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="138.75" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-262" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-256" target="w878aR4_vY9HhiLX4Rp0-261" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="354" y="2183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-265" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-256" target="w878aR4_vY9HhiLX4Rp0-264" edge="1">
+          <mxGeometry x="0.3095" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="562" y="2183" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-256" value="האם זוהו פנים ללא מסיכה?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="2100" width="202.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-269" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-261" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="2270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="354" y="2270" />
+              <mxPoint x="50" y="2270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-261" value="הצגת סרטון עם הנחיית&lt;br&gt;משרד הבריאות לעטיית&lt;br&gt;מסיכה נכונה" style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="294" y="2200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-268" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-264" target="w878aR4_vY9HhiLX4Rp0-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="562" y="2300" />
+              <mxPoint x="20" y="2300" />
+              <mxPoint x="20" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-264" value="הצגת התראה על המסך&lt;br&gt;על כך שטמפרטורת הגוף גבוהה מהמותר" style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="502.25" y="2220" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
