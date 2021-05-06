@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T00:33:33.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="HKiztCkCJaK0_kDCDj8L" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-06T00:38:58.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="B-Y42uiFoIn5NWmd7jp2" version="14.6.10" type="github">
   <diagram id="n-eHk8eXgxV1rp7qz2Ko" name="Page-1">
     <mxGraphModel dx="1422" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
             <mxPoint x="-38" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-6" value="האם התקבלה מסגרת?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;" parent="1" vertex="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-6" value="האם התקבלה מסגרת?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="349.75" y="220" width="152.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-10" target="w878aR4_vY9HhiLX4Rp0-3" edge="1">
@@ -47,12 +47,12 @@
         <mxCell id="w878aR4_vY9HhiLX4Rp0-10" value="משתנה של כמות מסגרות רצופות מאושרות = 0;&lt;br&gt;משתנה של כמות מסגרות רצופות לא מאושרות = 0." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;textDirection=rtl;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="80" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-23" value="detect_faces(frame)" style="swimlane;labelBackgroundColor=#FFFFFF;fontColor=#000000;html=0;rounded=1;" parent="1" vertex="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-23" value="detect_faces(frame)" style="swimlane;labelBackgroundColor=none;html=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="130" y="320" width="380" height="920" as="geometry">
             <mxRectangle x="230" y="360" width="150" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-32" value="&lt;span&gt;המרת המסגרת לגודל של 200x200x3&lt;/span&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;fillColor=#ffffff;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-23" vertex="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-32" value="&lt;span&gt;המרת המסגרת לגודל של 200x200x3&lt;/span&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=none;fillColor=#ffe6cc;rounded=1;strokeColor=#d79b00;" parent="w878aR4_vY9HhiLX4Rp0-23" vertex="1">
           <mxGeometry x="112.5" y="40" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-92" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;" parent="w878aR4_vY9HhiLX4Rp0-23" source="w878aR4_vY9HhiLX4Rp0-36" target="w878aR4_vY9HhiLX4Rp0-65" edge="1">
@@ -119,7 +119,7 @@
         <mxCell id="w878aR4_vY9HhiLX4Rp0-67" value="האם הלולאה עברה על&lt;br&gt;כל אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;strokeWidth=1;textDirection=rtl;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
           <mxGeometry x="61" y="30" width="182.5" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-72" value="מערך מיקומי&lt;br&gt;הפרצופים במסגרת" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="w878aR4_vY9HhiLX4Rp0-23" vertex="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-72" value="מערך מיקומי&lt;br&gt;הפרצופים במסגרת" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="w878aR4_vY9HhiLX4Rp0-23" vertex="1">
           <mxGeometry x="189" y="940" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-70" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="w878aR4_vY9HhiLX4Rp0-23" source="w878aR4_vY9HhiLX4Rp0-67" target="w878aR4_vY9HhiLX4Rp0-72" edge="1">
@@ -369,10 +369,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-190" value="מערך קטגוריות&lt;br&gt;מזוהות" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="1" vertex="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-190" value="מערך קטגוריות&lt;br&gt;מזוהות" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1018" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-191" value="מערך אחוזי &lt;br&gt;ביטחון" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="1" vertex="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-191" value="מערך אחוזי &lt;br&gt;ביטחון" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1138" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-192" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="w878aR4_vY9HhiLX4Rp0-191" edge="1">
@@ -381,7 +381,7 @@
             <mxPoint x="578" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-194" value="מערך טמפרטורות" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-194" value="מערך טמפרטורות" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1010" y="1330" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-195" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w878aR4_vY9HhiLX4Rp0-108" target="w878aR4_vY9HhiLX4Rp0-194" edge="1">
@@ -404,7 +404,7 @@
         <mxCell id="w878aR4_vY9HhiLX4Rp0-205" value="המסגרת מהמצלמה" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=#FFFFFF;dashed=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1198.5" y="1620" width="141" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-206" value="מערך פרצופים&lt;br&gt;מוכנים לסיווג" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=#FFFFFF;rounded=1;" parent="1" vertex="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-206" value="מערך פרצופים&lt;br&gt;מוכנים לסיווג" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="170" y="1260" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-220" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="w878aR4_vY9HhiLX4Rp0-212" edge="1">
