@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-06T00:51:08.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="9Ne7TwyB8GWeBpQC_Vwj" version="14.6.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-06T23:09:12.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="gJSRq4jRRggb5xpvM9Ia" version="14.6.10" type="github">
   <diagram id="n-eHk8eXgxV1rp7qz2Ko" name="Page-1">
-    <mxGraphModel dx="2370" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2363" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,10 +13,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-3" value="ניסיון לקריאת מסגרת מהמצלמה" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="332" y="140" width="188" height="60" as="geometry" />
+          <mxGeometry x="315.5" y="140" width="219" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-8" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=1;exitDx=0;exitDy=0;textDirection=rtl;labelBorderColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-6" target="w878aR4_vY9HhiLX4Rp0-23" edge="1">
-          <mxGeometry x="-0.3069" relative="1" as="geometry">
+          <mxGeometry x="-0.0696" relative="1" as="geometry">
             <mxPoint x="300" y="340" as="targetPoint" />
             <Array as="points">
               <mxPoint x="320" y="280" />
@@ -28,27 +28,28 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="260" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="540" y="280" />
-              <mxPoint x="540" y="170" />
+              <mxPoint x="465" y="280" />
+              <mxPoint x="560" y="280" />
+              <mxPoint x="560" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-20" value="לא" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];textDirection=rtl;spacing=8;labelBorderColor=none;spacingTop=8;spacingBottom=8;spacingRight=8;spacingLeft=8;labelBackgroundColor=#FFFFFF;rounded=1;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-19" vertex="1" connectable="0">
           <mxGeometry x="-0.3217" y="-4" relative="1" as="geometry">
-            <mxPoint x="-38" y="-4" as="offset" />
+            <mxPoint x="-32" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-6" value="האם התקבלה מסגרת?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="349.75" y="220" width="152.5" height="80" as="geometry" />
+          <mxGeometry x="344.38" y="220" width="161.25" height="90" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-10" target="w878aR4_vY9HhiLX4Rp0-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-10" value="משתנה של כמות מסגרות רצופות מאושרות = 0;&lt;br&gt;משתנה של כמות מסגרות רצופות לא מאושרות = 0." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;textDirection=rtl;rounded=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="290" y="80" width="270" height="40" as="geometry" />
+          <mxGeometry x="275" y="80" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-23" value="detect_faces(frame)" style="swimlane;labelBackgroundColor=none;html=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="130" y="320" width="380" height="920" as="geometry">
+          <mxGeometry x="130" y="320" width="380" height="1000" as="geometry">
             <mxRectangle x="230" y="360" width="150" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -69,8 +70,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-41" value="האם המודל בטוח ביותר מ50%&lt;br&gt;שיש פנים אנושיות בתוצאה&lt;br&gt;הנוכחית?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
-          <mxGeometry x="31" y="210" width="242.5" height="110" as="geometry" />
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-41" value="האם המודל בטוח ביותר&lt;br&gt;מ50% שיש פנים אנושיות&lt;br&gt;בתוצאה הנוכחית?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
+          <mxGeometry x="40.5" y="200" width="223.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-49" value="קריאת מיקום&lt;br&gt;הפנים במסגרת" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
           <mxGeometry x="82.25" y="375" width="140" height="60" as="geometry" />
@@ -116,11 +117,11 @@
         <mxCell id="w878aR4_vY9HhiLX4Rp0-68" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;labelBorderColor=none;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-65" source="w878aR4_vY9HhiLX4Rp0-67" target="w878aR4_vY9HhiLX4Rp0-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-67" value="האם הלולאה עברה על&lt;br&gt;כל אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-67" value="האם הלולאה עברה על כל&lt;br&gt;אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-65" vertex="1">
           <mxGeometry x="61" y="30" width="182.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-72" value="מערך מיקומי&lt;br&gt;הפרצופים במסגרת" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-23" vertex="1">
-          <mxGeometry x="189" y="940" width="141" height="60" as="geometry" />
+          <mxGeometry x="179" y="940" width="161" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-70" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-23" source="w878aR4_vY9HhiLX4Rp0-67" target="w878aR4_vY9HhiLX4Rp0-72" edge="1">
           <mxGeometry x="-0.8572" relative="1" as="geometry">
@@ -156,44 +157,45 @@
             <mxPoint x="240" y="1340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-162" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-79" target="w878aR4_vY9HhiLX4Rp0-161" edge="1">
-          <mxGeometry x="-0.9077" relative="1" as="geometry">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-162" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-79" target="w878aR4_vY9HhiLX4Rp0-161" edge="1">
+          <mxGeometry x="-0.9433" relative="1" as="geometry">
             <mxPoint x="560" y="380" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="281" y="1440" />
-              <mxPoint x="630" y="1440" />
-              <mxPoint x="630" y="320" />
-              <mxPoint x="823" y="320" />
-            </Array>
-            <mxPoint x="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-226" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.375;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-79" target="w878aR4_vY9HhiLX4Rp0-224" edge="1">
-          <mxGeometry x="-0.8115" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="201" y="1480" />
-              <mxPoint x="326" y="1480" />
+              <mxPoint x="620" y="1380" />
+              <mxPoint x="620" y="230" />
+              <mxPoint x="875" y="230" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-79" value="&lt;span&gt;האם יש יותר&lt;/span&gt;&lt;br&gt;&lt;span&gt;מ-0 נתונים במערך?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-226" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.375;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-79" target="w878aR4_vY9HhiLX4Rp0-224" edge="1">
+          <mxGeometry x="-0.4914" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="241" y="1450" />
+              <mxPoint x="360" y="1450" />
+              <mxPoint x="360" y="1410" />
+              <mxPoint x="445" y="1410" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-79" value="&lt;span&gt;האם יש יותר&amp;nbsp;&lt;/span&gt;&lt;span&gt;מ-0&lt;br&gt;נתונים במערך?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="160.5" y="1340" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-123" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-82" target="w878aR4_vY9HhiLX4Rp0-112" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1170" y="1270" />
-              <mxPoint x="1040" y="1270" />
+              <mxPoint x="1190" y="1170" />
+              <mxPoint x="1040" y="1170" />
               <mxPoint x="1040" y="790" />
-              <mxPoint x="688" y="790" />
-              <mxPoint x="688" y="970" />
-              <mxPoint x="735" y="970" />
+              <mxPoint x="700" y="790" />
+              <mxPoint x="700" y="970" />
+              <mxPoint x="751" y="970" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-82" value="get_scaled_temp_image()" style="swimlane;labelBackgroundColor=none;strokeWidth=1;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1070" y="870" width="200" height="360" as="geometry" />
+          <mxGeometry x="1090" y="760" width="200" height="360" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-87" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-82" source="w878aR4_vY9HhiLX4Rp0-84" target="w878aR4_vY9HhiLX4Rp0-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -205,25 +207,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-85" value="המרת הנתונים לתמונה&lt;br&gt;ברזולוציה של&lt;br&gt;24x32x1" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-82" vertex="1">
-          <mxGeometry x="39.5" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="39.5" y="116" width="120" height="66" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-90" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-82" source="w878aR4_vY9HhiLX4Rp0-86" target="w878aR4_vY9HhiLX4Rp0-89" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-86" value="היפוך התמונה&lt;br&gt;(מכיוון שהחיישן פולט את הנתונים בסדר הפוך)" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-82" vertex="1">
-          <mxGeometry x="34.25" y="200" width="130.5" height="60" as="geometry" />
+          <mxGeometry x="34.25" y="200" width="130.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-89" value="&lt;span&gt;המרת התמונה התרמית&lt;br&gt;לגודל של&lt;br&gt;480x640x1&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=none;fillColor=#ffe6cc;textDirection=rtl;rounded=1;strokeColor=#d79b00;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-82" vertex="1">
-          <mxGeometry x="22.5" y="283.5" width="155" height="60" as="geometry" />
+          <mxGeometry x="22" y="290" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-203" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-95" target="w878aR4_vY9HhiLX4Rp0-124" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-95" value="לולאה שעוברת על כל אחד ממיקומי הפרצופים" style="swimlane;labelBackgroundColor=none;strokeWidth=1;html=1;rounded=1;fillColor=#76C4B7;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="648" y="830" width="300" height="500" as="geometry" />
+          <mxGeometry x="670" y="830" width="300" height="500" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-103" value="הוספה למערך&lt;br&gt;הטמפרטורות" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-95" vertex="1">
-          <mxGeometry x="88.25" y="430" width="123.5" height="50" as="geometry" />
+          <mxGeometry x="89.25" y="430" width="123.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-107" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;labelBorderColor=none;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-95" source="w878aR4_vY9HhiLX4Rp0-108" target="w878aR4_vY9HhiLX4Rp0-112" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -231,34 +233,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-108" value="האם הלולאה עברה על&lt;br&gt;כל אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-95" vertex="1">
-          <mxGeometry x="58.75" y="30" width="182.5" height="110" as="geometry" />
+          <mxGeometry x="50.38" y="30" width="201.25" height="110" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-118" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-95" source="w878aR4_vY9HhiLX4Rp0-112" target="w878aR4_vY9HhiLX4Rp0-103" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-112" value="temp_average_from_bbox(frame, bbox)" style="swimlane;labelBackgroundColor=none;strokeWidth=1;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-95" vertex="1">
-          <mxGeometry x="25" y="210" width="250" height="190" as="geometry" />
+          <mxGeometry x="12" y="210" width="278" height="190" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-116" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-112" source="w878aR4_vY9HhiLX4Rp0-114" target="w878aR4_vY9HhiLX4Rp0-115" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-114" value="חילוץ איזור הפנים מהתמונה התרמית&lt;div style=&quot;direction: rtl&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=none;spacing=2;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-112" vertex="1">
-          <mxGeometry x="75" y="30" width="100" height="50" as="geometry" />
+          <mxGeometry x="89" y="30" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-120" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-112" source="w878aR4_vY9HhiLX4Rp0-115" target="w878aR4_vY9HhiLX4Rp0-112" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-115" value="חישוב ממוצע&lt;br&gt;הטמפרטורה&lt;br&gt;באיזור" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;textDirection=rtl;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-112" vertex="1">
-          <mxGeometry x="75" y="100" width="100" height="60" as="geometry" />
+          <mxGeometry x="89" y="100" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-124" value="draw_boxes_with_predictions(frame, locs, pred_labels, scores, temps)" style="swimlane;labelBackgroundColor=none;strokeWidth=1;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="628.5" y="1490" width="460" height="690" as="geometry" />
+          <mxGeometry x="750" y="1430" width="471.5" height="690" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-125" value="לולאה שעוברת על כל המערכים ממבוא הפונקציה (חוץ מהמסגרת), במקביל" style="swimlane;labelBackgroundColor=none;strokeWidth=1;html=1;textDirection=rtl;rounded=1;fillColor=#76C4B7;fontColor=#FFFFFF;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-124" vertex="1">
-          <mxGeometry x="13.75" y="50" width="432.5" height="620" as="geometry" />
+          <mxGeometry x="20" y="50" width="432.5" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-138" value="האם הלולאה עברה על&lt;br&gt;כל אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
-          <mxGeometry x="125" y="30" width="182.5" height="110" as="geometry" />
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-138" value="האם הלולאה עברה על כל&lt;br&gt;אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
+          <mxGeometry x="118.75" y="30" width="195" height="110" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-152" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-125" source="w878aR4_vY9HhiLX4Rp0-146" target="w878aR4_vY9HhiLX4Rp0-141" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -280,13 +282,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-146" value="האם הפנים מסווגות כפנים&lt;br&gt;עם מסיכה, והטמפרטורה&lt;br&gt;מתחת ל-38 מעלות?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
-          <mxGeometry x="125" y="190" width="182.5" height="130" as="geometry" />
+          <mxGeometry x="117.5" y="180" width="197.5" height="140" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-149" value="בחירה בצבע&lt;br&gt;אדום&lt;br&gt;&lt;div style=&quot;direction: rtl&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=none;spacing=2;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
           <mxGeometry x="276.25" y="350" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-144" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;fillColor=#ffcc99;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-125" source="w878aR4_vY9HhiLX4Rp0-138" target="w878aR4_vY9HhiLX4Rp0-146" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="-0.5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-150" value="בחירה בצבע&lt;br&gt;ירוק&lt;br&gt;&lt;div style=&quot;direction: rtl&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;labelBackgroundColor=none;spacing=2;rounded=1;fillColor=#eeeeee;strokeColor=#36393d;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
           <mxGeometry x="56.25" y="350" width="100" height="50" as="geometry" />
@@ -298,15 +302,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-141" value="&quot;ציור&quot; ריבוע מסביב למיקום הפרצופים שזוהו במסגרת בצבע שנבחר על גבי המסגרת" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-125" vertex="1">
-          <mxGeometry x="137.03" y="430" width="158.44" height="60" as="geometry" />
+          <mxGeometry x="137.03" y="420" width="158.44" height="70" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-156" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;labelBackgroundColor=#ffffff;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.499;exitY=0.035;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-124" source="w878aR4_vY9HhiLX4Rp0-124" target="w878aR4_vY9HhiLX4Rp0-125" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="30" as="sourcePoint" />
             <mxPoint x="360" y="220" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="230" y="30" />
-              <mxPoint x="230" y="30" />
+              <mxPoint x="236" y="24" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -314,9 +317,9 @@
           <mxGeometry x="-0.8415" relative="1" as="geometry">
             <mxPoint x="509.5" y="1720" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="550" y="1653" />
-              <mxPoint x="550" y="1480" />
-              <mxPoint x="376" y="1480" />
+              <mxPoint x="590" y="1593" />
+              <mxPoint x="590" y="1410" />
+              <mxPoint x="495" y="1410" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -325,13 +328,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1418" y="970" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="823" y="750" />
-              <mxPoint x="1170" y="750" />
+              <mxPoint x="875" y="710" />
+              <mxPoint x="1190" y="710" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-161" value="predict(faces)" style="swimlane;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="658" y="340" width="330" height="389" as="geometry" />
+          <mxGeometry x="710" y="266" width="330" height="389" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-165" value="לולאה שעוברת על כל אחד מהפרצופים" style="swimlane;labelBackgroundColor=none;strokeWidth=1;html=1;rounded=1;strokeColor=#005700;fontColor=#ffffff;fillColor=#76C4B7;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-161" vertex="1">
           <mxGeometry x="15" y="30" width="300" height="340" as="geometry" />
@@ -340,12 +343,17 @@
           <mxGeometry x="15.5" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-178" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;fontColor=#000000;labelBorderColor=none;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-165" source="w878aR4_vY9HhiLX4Rp0-179" target="w878aR4_vY9HhiLX4Rp0-181" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
             <mxPoint x="150" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="154" />
+              <mxPoint x="150" y="154" />
+            </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-179" value="האם הלולאה עברה על&lt;br&gt;כל אחת מהתוצאות במערך?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-165" vertex="1">
-          <mxGeometry x="58.75" y="30" width="182.5" height="110" as="geometry" />
+          <mxGeometry x="45" y="24" width="211.25" height="106" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-183" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.546;entryY=-0.036;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-165" source="w878aR4_vY9HhiLX4Rp0-181" target="w878aR4_vY9HhiLX4Rp0-175" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -360,169 +368,183 @@
           <mxGeometry x="160" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-189" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-179" target="w878aR4_vY9HhiLX4Rp0-190" edge="1">
-          <mxGeometry x="-0.3723" relative="1" as="geometry">
+          <mxGeometry x="-0.6695" relative="1" as="geometry">
             <mxPoint x="1128" y="500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="869" y="520" />
-              <mxPoint x="1078" y="520" />
+              <mxPoint x="1200" y="400" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-190" value="מערך קטגוריות&lt;br&gt;מזוהות" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1018" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="1130" y="440" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-191" value="מערך אחוזי &lt;br&gt;ביטחון" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1138" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="1260" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-192" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" target="w878aR4_vY9HhiLX4Rp0-191" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1078" y="520" as="sourcePoint" />
-            <mxPoint x="578" y="620" as="targetPoint" />
+            <mxPoint x="1200" y="400" as="sourcePoint" />
+            <mxPoint x="700" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="400" />
+              <mxPoint x="1320" y="400" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-194" value="מערך טמפרטורות" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="1330" width="120" height="30" as="geometry" />
+          <mxGeometry x="1010" y="1330" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-195" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-108" target="w878aR4_vY9HhiLX4Rp0-194" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-195" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-108" target="w878aR4_vY9HhiLX4Rp0-194" edge="1">
+          <mxGeometry x="-0.8353" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1000" y="943" />
               <mxPoint x="1000" y="1300" />
-              <mxPoint x="1070" y="1300" />
+              <mxPoint x="1075" y="1300" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-216" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-205" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1088.5" y="1650" as="targetPoint" />
+            <mxPoint x="1221.5" y="1582" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1088.5" y="1650" />
+              <mxPoint x="1271.5" y="1582" />
+              <mxPoint x="1271.5" y="1582" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-205" value="המסגרת מהמצלמה" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=none;dashed=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1198.5" y="1620" width="141" height="60" as="geometry" />
+          <mxGeometry x="1310" y="1552" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-206" value="מערך פרצופים&lt;br&gt;מוכנים לסיווג" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=12;size=0.23;labelBackgroundColor=none;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="170" y="1260" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-220" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-212" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1088.5" y="2010" as="targetPoint" />
+            <mxPoint x="1221.5" y="1942" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1088.5" y="2010" />
+              <mxPoint x="1271.5" y="1942" />
+              <mxPoint x="1271.5" y="1942" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-212" value="&lt;span style=&quot;&quot;&gt;מערך טמפרטורות&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=none;dashed=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1198.5" y="1980" width="141" height="60" as="geometry" />
+          <mxGeometry x="1310" y="1912" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-218" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-213" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1088.5" y="1830" as="targetPoint" />
+            <mxPoint x="1221.5" y="1762" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1088.5" y="1830" />
+              <mxPoint x="1281.5" y="1762" />
+              <mxPoint x="1281.5" y="1762" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-213" value="מערך קטגוריות&lt;br&gt;מזוהות" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=none;dashed=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1198.5" y="1800" width="141" height="60" as="geometry" />
+          <mxGeometry x="1310" y="1732" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-219" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-214" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1088.5" y="1920" as="targetPoint" />
+            <mxPoint x="1221.5" y="1852" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1088.5" y="1920" />
+              <mxPoint x="1271.5" y="1852" />
+              <mxPoint x="1271.5" y="1852" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-214" value="מערך אחוזי&lt;br&gt;ביטחון" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=none;dashed=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1198.5" y="1890" width="141" height="60" as="geometry" />
+          <mxGeometry x="1310" y="1822" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-217" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-215" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1088.5" y="1740" as="targetPoint" />
+            <mxPoint x="1221.5" y="1672" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1088.5" y="1740" />
+              <mxPoint x="1271.5" y="1672" />
+              <mxPoint x="1271.5" y="1672" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-215" value="מערך מיקומי&lt;br&gt;הפרצופים במסגרת" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=16;size=0.1595744680851064;labelBackgroundColor=none;dashed=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1198.5" y="1710" width="141" height="60" as="geometry" />
+          <mxGeometry x="1310" y="1642" width="141" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-227" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-231" target="w878aR4_vY9HhiLX4Rp0-10" edge="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-227" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-231" target="w878aR4_vY9HhiLX4Rp0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="1770" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="180" y="1731" />
-              <mxPoint x="120" y="1732" />
-              <mxPoint x="120" y="110" />
+              <mxPoint x="80" y="1545" />
+              <mxPoint x="80" y="110" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-237" value="לא" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=14;" parent="w878aR4_vY9HhiLX4Rp0-227" vertex="1" connectable="0">
           <mxGeometry x="-0.9634" y="-1" relative="1" as="geometry">
+            <mxPoint y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-251" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-224" target="w878aR4_vY9HhiLX4Rp0-231" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="1600" />
+              <mxPoint x="370" y="1600" />
+              <mxPoint x="370" y="1545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-224" value="הצגת המסגרת על המסך" style="strokeWidth=1;html=1;shape=hexagon;whiteSpace=wrap;size=0.25;labelBackgroundColor=none;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1440" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-239" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-231" target="w878aR4_vY9HhiLX4Rp0-238" edge="1">
+          <mxGeometry x="0.0289" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-251" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-224" target="w878aR4_vY9HhiLX4Rp0-231" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-224" value="הצגת המסגרת על המסך" style="strokeWidth=1;html=1;shape=hexagon;whiteSpace=wrap;size=0.25;labelBackgroundColor=none;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="251.25" y="1502" width="200" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-239" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-231" target="w878aR4_vY9HhiLX4Rp0-238" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-231" value="האם במסגרת קיימים פרצופים?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="258.75" y="1664" width="185" height="90" as="geometry" />
+          <mxGeometry x="109.25" y="1500" width="211.25" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-244" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-236" target="w878aR4_vY9HhiLX4Rp0-241" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-244" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-236" target="w878aR4_vY9HhiLX4Rp0-241" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="1860" />
+              <mxPoint x="150" y="1860" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-236" value="&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;העלאה ב-1 של משתנה המיצג את כמות המסגרות הרצופות המאושרות&lt;/span&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="170" y="1909" width="110" height="58" as="geometry" />
+          <mxGeometry x="90" y="1770" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-243" value="לא&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-238" target="w878aR4_vY9HhiLX4Rp0-236" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="301" y="1890" />
-              <mxPoint x="225" y="1890" />
+              <mxPoint x="229" y="1750" />
+              <mxPoint x="150" y="1750" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-248" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-238" target="w878aR4_vY9HhiLX4Rp0-246" edge="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-248" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-238" target="w878aR4_vY9HhiLX4Rp0-246" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="402" y="1890" />
-              <mxPoint x="481" y="1890" />
+              <mxPoint x="331" y="1750" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-238" value="האם במסגרת קיימים פרצופים&lt;br&gt;בהם חום הגוף מעל המותר&lt;br&gt;או אין מסיכה?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="250" y="1790" width="202.5" height="110" as="geometry" />
+          <mxGeometry x="178.75" y="1640" width="202.5" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-253" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-241" target="w878aR4_vY9HhiLX4Rp0-242" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-241" value="משתנה של כמות מסגרות רצופות לא מאושרות = 0." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;textDirection=rtl;rounded=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="100.5" y="1980" width="249" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-255" value="5 מסגרות מאושרות" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;textDirection=rtl;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-242" target="w878aR4_vY9HhiLX4Rp0-254" edge="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-253" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-241" target="w878aR4_vY9HhiLX4Rp0-242" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="351" y="2160" />
-              <mxPoint x="199" y="2160" />
+              <mxPoint x="391" y="1880" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-258" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-242" target="w878aR4_vY9HhiLX4Rp0-256" edge="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-241" value="משתנה של כמות מסגרות רצופות לא מאושרות = 0." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;textDirection=rtl;rounded=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="71.5" y="1860" width="249" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-255" value="5 מסגרות מאושרות" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;textDirection=rtl;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-242" target="w878aR4_vY9HhiLX4Rp0-254" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="362" y="2108" />
-              <mxPoint x="400" y="2108" />
-              <mxPoint x="400" y="2118" />
+              <mxPoint x="441" y="2010" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -530,8 +552,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="30" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="301" y="2112" />
-              <mxPoint x="50" y="2112" />
+              <mxPoint x="50" y="1962" />
               <mxPoint x="50" y="170" />
             </Array>
           </mxGeometry>
@@ -542,13 +563,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-242" value="האם נספרו 5 מסגרות רצופות?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="250" y="2040" width="202.5" height="110" as="geometry" />
+          <mxGeometry x="340" y="1880" width="202.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-250" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-246" target="w878aR4_vY9HhiLX4Rp0-247" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-246" value="&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;העלאה ב-1 של משתנה המיצג את כמות המסגרות הרצופות הלא מאושרות&lt;/span&gt;" style="whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;textDirection=rtl;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="416.25" y="1907" width="130" height="60" as="geometry" />
+          <mxGeometry x="420" y="1720" width="142.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-252" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-247" target="w878aR4_vY9HhiLX4Rp0-242" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -556,61 +577,67 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-247" value="משתנה של כמות מסגרות רצופות מאושרות = 0." style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;textDirection=rtl;rounded=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="356.75" y="1980" width="249" height="40" as="geometry" />
+          <mxGeometry x="348.37" y="1810" width="285.75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-270" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-254" edge="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-270" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-254" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="20" y="2250" as="targetPoint" />
+            <mxPoint x="20" y="2010" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="200" y="2250" />
+              <mxPoint x="20" y="2010" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-254" value="פתיחת הדלת והצגת אישור על המסך" style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="138.75" y="2180" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="1980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-262" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-256" target="w878aR4_vY9HhiLX4Rp0-261" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-262" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-256" target="w878aR4_vY9HhiLX4Rp0-261" edge="1">
+          <mxGeometry x="-0.7488" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="354" y="2183" />
+              <mxPoint x="477" y="2090" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-265" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-256" target="w878aR4_vY9HhiLX4Rp0-264" edge="1">
-          <mxGeometry x="0.3095" relative="1" as="geometry">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-265" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-256" target="w878aR4_vY9HhiLX4Rp0-264" edge="1">
+          <mxGeometry x="-0.0672" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="562" y="2183" />
+              <mxPoint x="621" y="2060" />
+              <mxPoint x="670" y="2060" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-256" value="האם זוהו פנים ללא מסיכה?" style="rhombus;whiteSpace=wrap;html=1;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="390" y="2100" width="202.5" height="110" as="geometry" />
+          <mxGeometry x="520" y="1935" width="202.5" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-269" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-261" edge="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-269" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-261" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="20" y="2270" as="targetPoint" />
+            <mxPoint x="20" y="2090" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="354" y="2270" />
-              <mxPoint x="50" y="2270" />
+              <mxPoint x="20" y="2090" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-261" value="הצגת סרטון עם הנחיית&lt;br&gt;משרד הבריאות לעטיית&lt;br&gt;מסיכה נכונה" style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="294" y="2200" width="120" height="60" as="geometry" />
+          <mxGeometry x="120" y="2050" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w878aR4_vY9HhiLX4Rp0-268" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-264" target="w878aR4_vY9HhiLX4Rp0-10" edge="1">
+        <mxCell id="w878aR4_vY9HhiLX4Rp0-268" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="w878aR4_vY9HhiLX4Rp0-264" target="w878aR4_vY9HhiLX4Rp0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="130" y="100" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="562" y="2300" />
-              <mxPoint x="20" y="2300" />
+              <mxPoint x="20" y="2143" />
               <mxPoint x="20" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="w878aR4_vY9HhiLX4Rp0-264" value="הצגת התראה על המסך&lt;br&gt;על כך שטמפרטורת הגוף גבוהה מהמותר" style="whiteSpace=wrap;html=1;strokeWidth=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="502.25" y="2220" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="2090" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GNIyE3q6e7vTPP9fgvgN-1" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#ffffff;fontSize=14;fontColor=#FFFFFF;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w878aR4_vY9HhiLX4Rp0-242" target="w878aR4_vY9HhiLX4Rp0-256">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="1930" as="sourcePoint" />
+            <mxPoint x="660" y="1880" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
