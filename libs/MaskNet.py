@@ -17,8 +17,8 @@ faceNet = cv2.dnn.readNet(prototxtPath, weightsPath)
 print("[INFO] loading face mask detector model...")
 import tflite_runtime.interpreter as tflite
 interpreter = tflite.Interpreter(
-    # model_path=os.path.expanduser("/home/pi/Desktop/mask_model.tflite"))
-    model_path=os.path.expanduser("/home/pi/CollegeProject/models/MaskDetector/model.tflite"))
+    # model_path=os.path.expanduser("/home/pi/CollegeProject/models/MaskDetector/model.tflite"))
+    model_path=os.path.expanduser("/home/pi/CollegeProject/models/MaskDetector/model_quant.tflite"))
 interpreter.allocate_tensors()
 
 input_details = interpreter.get_input_details()
@@ -69,7 +69,7 @@ def detect_faces(frame):
                 # resize it to 160x160
                 face = cv2.resize(face, (160, 160))
 
-                # expand array shape from [1, 160, 160, 3] to [160, 160, 3]
+                # expand array shape from [160, 160, 3] to [1, 160, 160, 3]
                 face = np.expand_dims(face, axis=0)
 
                 # add the face and bounding boxes to their respective lists

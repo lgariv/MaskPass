@@ -46,8 +46,6 @@ def detection():
 
         # use the face detector model to extract bounding boxes and pre-processed faces from the frame
         locs, faces = detect_faces(frame)
-        if len(faces) == 0:
-            continue
 
         # run mask prediction using our mask classification model and retrieve predicted label and confidence
         pred_labels, scores = predict(faces)
@@ -63,7 +61,6 @@ def detection():
 
         # All the results have been drawn on the frame, so it's time to display it.
         cv2.imshow('Mask Detection', frame)
-        print("showing")
         cv2.moveWindow('Mask Detection', 0, 0)
         cv2.setWindowProperty('Mask Detection', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
 
@@ -99,6 +96,7 @@ def detection():
             # where 0.4ms (2% dc) is 0 degrees, 1.4ms (7% dc) is 90 degrees,
             # and 2.4ms (12% dc) is 180 degrees.
             """
+            camera.stop()
             screen = Thread(target=play_entry_allowed_screen, args=())
             screen.start()
 
@@ -107,16 +105,17 @@ def detection():
             sleep(0.5)
             servo.ChangeDutyCycle(0)
 
-            # Wait for 3 seconds
-            sleep(3)
+            # Wait for 2 seconds
+            sleep(2)
 
             # Turn servo back to 0 degrees
             servo.ChangeDutyCycle(2)
             sleep(0.5)
             servo.ChangeDutyCycle(0)
 
-            # Wait for 3 seconds
-            sleep(3)
+            # Wait for 2 seconds
+            sleep(2)
+            camera = VideoStream().start()
 
         # Press 'q' to break out of the loop and quit
         if cv2.waitKey(1) == ord('q'):
