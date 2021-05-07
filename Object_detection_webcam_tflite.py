@@ -63,6 +63,7 @@ def detection():
 
         # All the results have been drawn on the frame, so it's time to display it.
         cv2.imshow('Mask Detection', frame)
+        print("showing")
         cv2.moveWindow('Mask Detection', 0, 0)
         cv2.setWindowProperty('Mask Detection', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
 

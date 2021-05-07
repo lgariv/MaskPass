@@ -211,7 +211,7 @@ def draw_boxes_with_predictions(frame, locs, pred_labels, scores, temps):
         # unpack the bounding box and predictions
         (startY, startX, endY, endX) = box
         # determine the class label and color we'll use to draw the bounding box and text
-        label = "No Mask, {:.2f}c".format(temp) if "No Mask" in pred_label else "Mask, {:.2f}c".format(temp)
+        label = "{}, {:.2f}c".format(pred_label, temp)
         color = (0, 0, 255) if "No Mask" in label or temp >= 38 else (0, 255, 0)
         # include the probability (as percentages) in the label
         label = "{}: {:.2f}%".format(label, float(score) * 100)
