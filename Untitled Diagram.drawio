@@ -1,1 +1,163 @@
-<mxfile host="app.diagrams.net" modified="2021-05-08T22:56:34.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="14.6.10" etag="Es-UFvu2ID6yFr1Q8c8p" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-09T09:18:52.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="LgiWuEc0HVHD3BsXiBfe" version="14.6.10" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1303" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4RzmvbZs7sSl9eXemXXz-6" target="4RzmvbZs7sSl9eXemXXz-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-6" value="התחלה" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;shadow=0;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="149.5" y="20" width="81" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-13" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4RzmvbZs7sSl9eXemXXz-11" target="4RzmvbZs7sSl9eXemXXz-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-61" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4RzmvbZs7sSl9eXemXXz-15" target="4RzmvbZs7sSl9eXemXXz-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="330" />
+              <mxPoint x="360" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-11" value="שמירת המרחק ההתחלתי&lt;br&gt;מחיישן המרחק" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=24;size=0.23;textDirection=rtl;shadow=0;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-15" value="distance()" style="swimlane;strokeWidth=1;shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="105" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-18" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fillColor=#ffe6cc;" edge="1" parent="4RzmvbZs7sSl9eXemXXz-15" source="4RzmvbZs7sSl9eXemXXz-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-16" value="שליחת פולס באורך&lt;br&gt;10 מיקרו-שניות בהדק echo של חיישן המרחק" style="whiteSpace=wrap;html=1;strokeWidth=1;textDirection=rtl;shadow=0;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4RzmvbZs7sSl9eXemXXz-15">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-20" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="4RzmvbZs7sSl9eXemXXz-15" target="4RzmvbZs7sSl9eXemXXz-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-17" value="מדידת משך הזמן בין שליחת הפולס לבין קבלת הפולס בהדק echo של חיישן המרחק" style="whiteSpace=wrap;html=1;strokeWidth=1;textDirection=rtl;shadow=0;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4RzmvbZs7sSl9eXemXXz-15">
+          <mxGeometry x="20" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-19" value="חישוב המרחק בסנטימטרים&lt;br&gt;לפי מהירות הקול" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;shadow=0;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4RzmvbZs7sSl9eXemXXz-15">
+          <mxGeometry x="20" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-33" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4RzmvbZs7sSl9eXemXXz-23" target="4RzmvbZs7sSl9eXemXXz-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-23" value="&lt;span&gt;לולאה אינסופית&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="105" y="360" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-41" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4RzmvbZs7sSl9eXemXXz-27" target="4RzmvbZs7sSl9eXemXXz-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="347" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="840" />
+              <mxPoint x="320" y="840" />
+              <mxPoint x="320" y="520" />
+              <mxPoint x="561" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-27" value="distance()" style="swimlane;strokeWidth=1;shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="510" width="200" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-28" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="4RzmvbZs7sSl9eXemXXz-27" source="4RzmvbZs7sSl9eXemXXz-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-29" value="שליחת פולס באורך&lt;br&gt;10 מיקרו-שניות בהדק echo של חיישן המרחק" style="whiteSpace=wrap;html=1;strokeWidth=1;textDirection=rtl;shadow=0;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4RzmvbZs7sSl9eXemXXz-27">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-30" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="4RzmvbZs7sSl9eXemXXz-27" target="4RzmvbZs7sSl9eXemXXz-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-31" value="מדידת משך הזמן בין שליחת הפולס לבין קבלת הפולס בהדק echo של חיישן המרחק" style="whiteSpace=wrap;html=1;strokeWidth=1;textDirection=rtl;shadow=0;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4RzmvbZs7sSl9eXemXXz-27">
+          <mxGeometry x="20" y="130" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-32" value="חישוב המרחק בסנטימטרים&lt;br&gt;לפי מהירות הקול" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;shadow=0;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="4RzmvbZs7sSl9eXemXXz-27">
+          <mxGeometry x="20" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-44" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4RzmvbZs7sSl9eXemXXz-40" target="4RzmvbZs7sSl9eXemXXz-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557.25" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-40" value="שמירת המרחק הנוכחי&lt;br&gt;מחיישן המרחק" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;arcSize=22;size=0.23;textDirection=rtl;shadow=0;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="475.12999999999994" y="550" width="172.37" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-55" value="לא" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4RzmvbZs7sSl9eXemXXz-45" target="4RzmvbZs7sSl9eXemXXz-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-56" value="כן" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4RzmvbZs7sSl9eXemXXz-45" target="4RzmvbZs7sSl9eXemXXz-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-45" value="האם המרחק הנוכחי קטן&lt;br&gt;יותר מהמרחק ההתחלתי?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;textDirection=rtl;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="471.06" y="640" width="180.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-57" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4RzmvbZs7sSl9eXemXXz-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="480" as="targetPoint" />
+            <mxPoint x="442" y="860" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="440" y="880" />
+              <mxPoint x="60" y="880" />
+              <mxPoint x="60" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-48" value="door_servo_open()" style="swimlane;shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="740" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-49" value="פתיחת הדלת ע&quot;י סיבוב&lt;br&gt;מנוע הסרוו ל-0 מעלות" style="whiteSpace=wrap;html=1;shadow=0;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4RzmvbZs7sSl9eXemXXz-48">
+          <mxGeometry x="20" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-51" value="door_servo_close()" style="swimlane;shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="740" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-52" value="סגירת הדלת ע&quot;י סיבוב&lt;br&gt;מנוע הסרוו ל-90 מעלות" style="whiteSpace=wrap;html=1;shadow=0;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4RzmvbZs7sSl9eXemXXz-51">
+          <mxGeometry x="20" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-60" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4RzmvbZs7sSl9eXemXXz-53" target="4RzmvbZs7sSl9eXemXXz-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-53" value="door_servo_close()" style="swimlane;shadow=0;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="120" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-54" value="סגירת הדלת ע&quot;י סיבוב&lt;br&gt;מנוע הסרוו ל-90 מעלות" style="whiteSpace=wrap;html=1;shadow=0;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="4RzmvbZs7sSl9eXemXXz-53">
+          <mxGeometry x="20" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4RzmvbZs7sSl9eXemXXz-59" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;shadow=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="4RzmvbZs7sSl9eXemXXz-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="880" as="sourcePoint" />
+            <mxPoint x="800" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
