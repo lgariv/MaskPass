@@ -2,7 +2,7 @@
 # https://pimylifeup.com/raspberry-pi-distance-sensor/
 #
 import RPi.GPIO as GPIO
-from time import sleep
+from time import sleep, time
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(32, GPIO.OUT)
@@ -65,10 +65,11 @@ try:
             sleep(1)
             door_servo_close()
 
-        if abs(current_distance - last_distance) <= 1:
+        if abs(current_distance - last_distance) <= 2:
             unchanged_distance += 1
             if unchanged_distance == 10:
                 threshold_distance = current_distance - 0.1
+                unchanged_distance = 0
 
         last_distance = current_distance
 finally:

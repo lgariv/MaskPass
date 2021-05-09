@@ -86,10 +86,11 @@ def predict(faces):
     scores = []
     for face in faces:
         # pre-process image to conform to MobileNetV2
-        input_data = preprocess_input(np.float32(face))
+        # input_mean = input_std = float(127.5)
+        # input_data = (np.float32(face) - input_mean) / input_std
 
         # set our input tensor to our face image
-        interpreter.set_tensor(input_details[0]['index'], input_data)
+        interpreter.set_tensor(input_details[0]['index'], np.float32(face))
 
         # perform classification
         interpreter.invoke()
