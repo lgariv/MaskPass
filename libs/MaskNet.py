@@ -1,7 +1,5 @@
 import os
 import cv2
-import tensorflow as tf
-from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 import numpy as np
 from time import sleep, time
 import threading
