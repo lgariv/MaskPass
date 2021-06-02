@@ -4,13 +4,13 @@
 import RPi.GPIO as GPIO
 from time import sleep, time
 
-GPIO.setmode(GPIO.BOARD)
-GPIO.setup(32, GPIO.OUT)
-door_servo = GPIO.PWM(32, 50)  # pin 32 for servo, operating at 50Hz
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(12, GPIO.OUT)
+door_servo = GPIO.PWM(12, 50)  # pin 32 for servo, operating at 50Hz
 door_servo.start(0)  # start servo pulse with 0% duty cycle (disabled)
 
-trigger_pin = 36
-echo_pin = 35
+trigger_pin = 16
+echo_pin = 19
 
 GPIO.setup(trigger_pin, GPIO.OUT)  # pin 36
 GPIO.setup(echo_pin, GPIO.IN)  # pin 35

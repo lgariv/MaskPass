@@ -1,21 +1,5 @@
 #!/usr/bin/env python3
 
-######## Webcam Object Detection Using Tensorflow-trained Classifier #########
-#
-# Author: Evan Juras
-# Date: 1/20/18
-# Description:
-# This program uses a TensorFlow-trained classifier to perform object detection.
-# It loads the classifier and uses it to perform object detection on a webcam feed.
-# It draws boxes, scores, and labels around the objects of interest in each frame
-# from the webcam.
-
-## Some of the code is copied from Google's example at
-## https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb
-
-## and some is copied from Dat Tran's example at
-## https://github.com/datitran/object_detector_app/blob/master/object_detection_app.py
-
 from time import sleep
 import cv2
 from threading import Thread
@@ -24,9 +8,11 @@ from libs.MLX90640 import get_scaled_temp_image, temp_average_from_bbox
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(13, GPIO.OUT) # GPIO13 (pin 33)
-servo = GPIO.PWM(13, 50) # GPIO13 (pin 33) for servo, operating at 50Hz
-servo.start(0) # start servo pulse with 0% duty cycle (disabled)
+GPIO.setup(13, GPIO.OUT)  # GPIO13 (pin 33)
+servo = GPIO.PWM(13, 50)  # GPIO13 (pin 33) for servo, operating at 50Hz
+servo.start(12)
+sleep(0.5)
+servo.ChangeDutyCycle(0)
 
 
 def detection():
@@ -41,8 +27,10 @@ def detection():
         # i.e. a single-column array, where each item in the column has the pixel RGB value
         ret, frame = camera.grabbed, camera.read()
         if not ret:
-            input("No camera device found. Please plug a USB webcam to the Raspberry Pi.\nPress any key to continue...")
-            continue # skips the rest of the commands for the current loop
+            input(
+                "No camera device found. Please plug a USB webcam to the Raspberry Pi.\nPress any key to continue..."
+            )
+            continue  # skips the rest of the commands for the current loop
 
         # use the face detector model to extract bounding boxes and pre-processed faces from the frame
         locs, faces = detect_faces(frame)
@@ -57,12 +45,14 @@ def detection():
             temps.append(temp)
 
         # loop over the detected face locations and their corresponding locations
-        frame = draw_boxes_with_predictions(frame, locs, pred_labels, scores, temps)
+        frame = draw_boxes_with_predictions(frame, locs, pred_labels, scores,
+                                            temps)
 
         # All the results have been drawn on the frame, so it's time to display it.
         cv2.imshow('Mask Detection', frame)
         cv2.moveWindow('Mask Detection', 0, 0)
-        cv2.setWindowProperty('Mask Detection', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+        cv2.setWindowProperty('Mask Detection', cv2.WND_PROP_FULLSCREEN,
+                              cv2.WINDOW_FULLSCREEN)
 
         if not pred_labels:  # check if list is empty
             authorized_frames_count = 0
@@ -109,7 +99,7 @@ def detection():
             sleep(2)
 
             # Turn servo back to 0 degrees
-            servo.ChangeDutyCycle(2)
+            servo.ChangeDutyCycle(12)
             sleep(0.5)
             servo.ChangeDutyCycle(0)
 
