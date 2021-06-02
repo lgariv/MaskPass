@@ -58,7 +58,7 @@ try:
     while (1):
         current_distance = distance()
 
-        if abs(current_distance - start_distance) <= 5:
+        if abs(current_distance - start_distance) >= 5:
             door_servo_open()
         else:
             sleep(1)
