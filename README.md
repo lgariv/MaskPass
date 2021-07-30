@@ -1,5 +1,7 @@
 # College Project
 
+[עברית](https://github.com/lgariv/CollegeProject/blob/main/README-he.md)
+
 ## Step 1
 
 **Train mask image classifier model in Google Colab (with GPU)**
